@@ -38,4 +38,4 @@ for list in lists:
 
 print(",".join(largest_list))
 
-# YCEP2023{0Nc3_C0mm1tted_f0r3v3r_c0MM1tt3d}
+# Flag was here!
