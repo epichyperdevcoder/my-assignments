@@ -12,7 +12,7 @@ Sample output:
 
 text = input("Enter a text: ")
 
-vowels = ["a", "e", "i", "o", "u"
+vowels = ["a", "e", "i", "o", "u"]
 
 count = 0
 
