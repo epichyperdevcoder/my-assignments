@@ -17,7 +17,7 @@ vowels = ["a", "e", "i", "o", "u"]
 count = 0
 
 for i in text:
-  if i == vowels[0] and vowels[1] and vowels[2] and vowels[3] and vowels[4]:
+  if i in vowels:
     count += 1
 
 print(count)
