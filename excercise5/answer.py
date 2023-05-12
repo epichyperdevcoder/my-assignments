@@ -9,12 +9,12 @@ Random list:  [92, 31, 85, 46, 82, 81, 38, 22, 68, 8, 97, 56, 6, 60, 37, 24, 73,
 Odd list:  [31, 85, 81, 97, 37, 73, 85, 29, 67, 51, 87, 83, 89, 81, 25, 59, 13, 35, 45, 23, 23, 55, 87]
 Even list:  [92, 46, 82, 38, 22, 68, 8, 56, 6, 60, 24, 10, 28, 28, 90, 52, 94, 86, 32, 78, 86, 52, 66, 66, 78, 86, 44]
 """
-import math
+import random
 
 randList = []
 
 for i in range(50):
-  randList[i] = math.random(1, 100)
+  randList.append(random.randint(1, 100))
 
 oddList = []
 
