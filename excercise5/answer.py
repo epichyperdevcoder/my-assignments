@@ -13,7 +13,7 @@ import math
 
 randList = []
 
-for i in range(51):
+for i in range(50):
   randList[i] = math.random(1, 100)
 
 oddList = []
