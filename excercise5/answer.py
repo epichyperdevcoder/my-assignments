@@ -17,6 +17,7 @@ for i in range(50):
   randList.append(random.randint(1, 100))
 
 oddList = []
+evenList = []
 
 for i in randList:
   if i % 2 == 0:
